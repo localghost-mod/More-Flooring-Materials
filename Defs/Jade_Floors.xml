@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <TerrainDef ParentName="TileMetalBase">
+        <defName>TileJade</defName>
+        <label>jade tile</label>
+        <description>Tribal styled tiles made of jade.</description>
+        <color>(101, 146, 81)</color>
+        <statBases>
+            <Beauty>8</Beauty>
+            <WorkToBuild>800</WorkToBuild>
+            <Cleanliness>0.2</Cleanliness>
+            <CleaningTimeFactor>0.6</CleaningTimeFactor>
+        </statBases>
+        <costList>
+            <Jade>7</Jade>
+        </costList>
+        <tags>
+            <li>FineFloor</li>
+        </tags>
+    </TerrainDef>
+    <TerrainDef ParentName="FineTileStoneBase">
+        <defName>FineTileJade</defName>
+        <label>fine jade tile</label>
+        <color>(101, 146, 81)</color>
+        <costList>
+            <Jade>20</Jade>
+        </costList>
+    </TerrainDef>
+</Defs>

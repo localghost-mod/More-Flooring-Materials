@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <StuffedFloors.FloorTypeDef Name="TileTranshumanistBase" ParentName="StuffedFloorsBase">
+        <defName>TileTranshumanist</defName>
+        <label>hex tile</label>
+        <texturePath>Terrain/Surfaces/HexTile</texturePath>
+        <description>Fine plates with a hexagonal pattern for that ultra-technological look.</description>
+        <statBases>
+            <Beauty>3</Beauty>
+            <WorkToBuild>800</WorkToBuild>
+            <StyleDominance>1</StyleDominance>
+            <Cleanliness>0.2</Cleanliness>
+            <CleaningTimeFactor>0.6</CleaningTimeFactor>
+        </statBases>
+        <tags>
+            <li>Floor</li>
+            <li>FineFloor</li>
+        </tags>
+        <stuffCost>12</stuffCost>
+        <researchPrerequisites>
+            <li>Smithing</li>
+        </researchPrerequisites>
+        <stuffCategories>
+            <li>Metallic</li>
+            <li>Stony</li>
+            <li>Woody</li>
+        </stuffCategories>
+        <dominantStyleCategory>Techist</dominantStyleCategory>
+        <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    </StuffedFloors.FloorTypeDef>
+    <TerrainDef ParentName="FloorBase">        
+        <defName>Sterile_TileTranshumanist</defName>
+        <label>hex sterile tile</label>
+        <description>Hex sterile tiles with special cleanliness-enhancing properties. Extra-clean rooms improve outcomes in hospitals and research labs. This tile is very slow to build, but quick to clean.</description>
+        <texturePath>Terrain/Surfaces/HexTile</texturePath>
+        <statBases>
+            <Beauty>3</Beauty>
+            <WorkToBuild>5000</WorkToBuild>
+            <StyleDominance>1</StyleDominance>
+            <Cleanliness>0.6</Cleanliness>
+            <CleaningTimeFactor>0.6</CleaningTimeFactor>
+        </statBases>
+        <tags>
+            <li>Floor</li>
+            <li>FineFloor</li>
+        </tags>
+        <dominantStyleCategory>Techist</dominantStyleCategory>
+        <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+        <color>(0.71, 0.71, 0.71)</color>
+        <pollutionTintColor>(0.95, 0.95, 0.93, 1)</pollutionTintColor>
+        <isPaintable>true</isPaintable>
+        <costList>
+            <Steel>5</Steel>
+            <Silver>15</Silver>
+        </costList>
+        <researchPrerequisites>
+            <li>Smithing</li>
+            <li>SterileMaterials</li>
+        </researchPrerequisites>
+    </TerrainDef>
+</Defs>

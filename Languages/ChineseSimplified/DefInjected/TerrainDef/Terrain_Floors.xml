@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <TileTranshumanist.label>六角地砖</TileTranshumanist.label>
+    <TileTranshumanist.description>六角形图案的精致地砖，具有极致科技的外观风格。</TileTranshumanist.description>
+
+    <Sterile_TileTranshumanist.label>无菌六角地砖</Sterile_TileTranshumanist.label>
+    <Sterile_TileTranshumanist.description>无菌六角地砖具有特殊的增强清洁度特性。超洁净的房间能够更好地担当医务室和研究室的功能。这种地砖铺设十分缓慢，但很容易清理干净。</Sterile_TileTranshumanist.description>
+
+    <TileJade.label>翡翠地砖</TileJade.label>
+    <TileJade.description>部落风格的翡翠地砖。</TileJade.description>
+
+    <FineTileJade.label>精致翡翠地砖</FineTileJade.label>
+    <FineTileJade.description>精美的翡翠地砖，毫不妥协地制作，用来表现地位。施工缓慢。</FineTileJade.description>
+</LanguageData>
