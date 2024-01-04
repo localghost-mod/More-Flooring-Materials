@@ -14,4 +14,8 @@
         1. Hexagonal tiles in steel, silver, gold, stone, jade and sterile.
         2. Jade tiles as alternative to metal tiles and fine stone floors.
     </description>
+    <loadAfter>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>ludeon.rimworld.ideology</li>
+    </loadAfter>
 </ModMetaData>

@@ -6,7 +6,7 @@
         <description>Tribal styled tiles made of jade.</description>
         <color>(101, 146, 81)</color>
         <statBases>
-            <Beauty>8</Beauty>
+            <Beauty>3</Beauty>
             <WorkToBuild>800</WorkToBuild>
             <Cleanliness>0.2</Cleanliness>
             <CleaningTimeFactor>0.6</CleaningTimeFactor>
@@ -25,5 +25,8 @@
         <costList>
             <Jade>20</Jade>
         </costList>
+        <statBases>
+            <Beauty>8</Beauty>
+        </statBases>
     </TerrainDef>
 </Defs>
